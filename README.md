@@ -6,19 +6,19 @@
 ## Screenshots
 
 * InterFace
-![ss.](/img/1.png "Interface")
+1. ![ss.](/img/1.png "Interface")
 
 * When roots are qual. (X = 0)
-![ss.](/img/2.png "When roots are qual. (X = 0)")
+2. ![ss.](/img/2.png "When roots are qual. (X = 0)")
 
 * When 2 roots are there. (X > 0)
-![ss.](/img/3.png "When 2 roots are there. (X > 0)")
+3. ![ss.](/img/3.png "When 2 roots are there. (X > 0)")
 
 * When roots are not real numbers. (X < 0)
-![ss.](/img/4.png "When roots are not real numbers. (X < 0)")
+4. ![ss.](/img/4.png "When roots are not real numbers. (X < 0)")
 
 * When user try to enter non-numeric values
-![ss.](/img/5.png "When user try to enter non-numeric values")
+5. ![ss.](/img/5.png "When user try to enter non-numeric values")
 
 
 ## Features
