@@ -21,9 +21,9 @@
 
 ``` vb
 
-'================================= COL/CE/2020/F/056 K.R.MADHUSHANKHA ===================================
-'                                       ===========================
-'                                           ==================
+'================================= Ravindu Madhushankha ===================================
+'                              ===========================
+'                                   ==================
 
 
 'Declarations
@@ -161,7 +161,7 @@ End Function
 
 'About
 Public Function About()
-    Owner = Array("Created By COLCE2020F056 K.R.MADHUSHANKHA.", "2nd Year 1st Semester.", "Solution of Quadratic Equation Can be determined using this program.", "")
+    Owner = Array("Created By Ravindu Madhushankha.", "", "Solution of Quadratic Equation Can be determined using this program.", "")
     MsgBox Owner(2) & vbCrLf & Owner(3) & vbCrLf & Owner(3) & vbCrLf & Owner(0) & vbCrLf & Owner(1) & vbCrLf & Owner(3), vbOKOnly, "About"
 End Function
 
@@ -301,7 +301,5 @@ End Sub
 
 '-----------------------------------------------------------------------------------------------------------------
 '----------------------------------------------------
-
-
 
 ```
