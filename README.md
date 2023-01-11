@@ -1,6 +1,6 @@
 # Quadratic-Equation
- #### Solution of Quadratic equation can be determined using this program.
-
+ #### Solution of Quadratic equation can be determined using this program. 
+ #### Programming Language : Visual Basic
 
 
 ## Screenshots
