@@ -28,6 +28,7 @@
 * User defined functions and Arrays were added to reduce the code lines and time.
 * Dialog boxes were added before clearing and exit program to make sure to do that from user.
 
+## Code
 
 ``` vb
 
