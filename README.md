@@ -1,5 +1,7 @@
 # Quadratic-Equation
- ### Solution of Quadratic equation can be determined using this program.
+ #### Solution of Quadratic equation can be determined using this program.
+
+
 
 ## Screenshots
 
@@ -16,8 +18,6 @@
 * User defined functions and Arrays were added to reduce the code lines and time.
 * Dialog boxes were added before clearing and exit program to make sure to do that from user.
 
-## Owner
-* Ravindu Madhushankha
 
 ``` vb
 
@@ -239,67 +239,5 @@ Private Sub TxtC_KeyPress(KeyAscii As Integer)
 End Sub
 ' ==========================================================
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-'==================================== Move window ===========================================
-Private Sub Form_MouseDown(Button As Integer, Shift As Integer, X As Single, Y As Single)
-    FrmMove = True
-    DragX = X
-    DragY = Y
-End Sub
-Private Sub Form_MouseMove(Button As Integer, Shift As Integer, X As Single, Y As Single)
-Dim nx, ny
-    If FrmMove Then
-        nx = Main.Left + X - DragX
-        ny = Main.Top + Y - DragY
-        Main.Left = nx
-        Main.Top = ny
-    End If
-End Sub
-Private Sub Form_MouseUp(Button As Integer, Shift As Integer, X As Single, Y As Single)
-Dim nx, ny
-    nx = Main.Left + X - DragX
-    ny = Main.Top + Y - DragY
-    Main.Left = nx
-    Main.Top = ny
-    FrmMove = False
-End Sub
-Private Sub PlayerSlim_MouseDown(Button As Integer, Shift As Integer, X As Single, Y As Single)
-    Form_MouseDown Button, Shift, X, Y
-End Sub
-Private Sub PlayerSlim_MouseMove(Button As Integer, Shift As Integer, X As Single, Y As Single)
-    Form_MouseMove Button, Shift, X, Y
-End Sub
-Private Sub PlayerSlim_MouseUp(Button As Integer, Shift As Integer, X As Single, Y As Single)
-    Form_MouseUp Button, Shift, X, Y
-End Sub
-Private Sub PlayerTop_MouseDown(Button As Integer, Shift As Integer, X As Single, Y As Single)
-    Form_MouseDown Button, Shift, X, Y
-End Sub
-Private Sub PlayerTop_MouseMove(Button As Integer, Shift As Integer, X As Single, Y As Single)
-    Form_MouseMove Button, Shift, X, Y
-End Sub
-Private Sub PlayerTop_MouseUp(Button As Integer, Shift As Integer, X As Single, Y As Single)
-    Form_MouseUp Button, Shift, X, Y
-End Sub
-
-'-----------------------------------------------------------------------------------------------------------------
-'----------------------------------------------------
 
 ```
