@@ -5,20 +5,11 @@
 
 ## Screenshots
 
-Interface
-![ss.](/img/1.png)
-
-When roots are qual. (X = 0)
-![ss.](/img/2.png)
-
-When 2 roots are there. (X > 0)
-![ss.](/img/3.png)
-
-When roots are not real numbers. (X < 0)
-![ss.](/img/4.png)
-
-When user try to enter non-numeric values
-![ss.](/img/5.png)
+![ss.](/img/1.png "Interface")
+![ss.](/img/2.png "When roots are qual. (X = 0)")
+![ss.](/img/3.png "When 2 roots are there. (X > 0)")
+![ss.](/img/4.png "When roots are not real numbers. (X < 0)")
+![ss.](/img/5.png "When user try to enter non-numeric values")
 
 ## Features
 * Recently roots section was added to see what the previous data which used are.
